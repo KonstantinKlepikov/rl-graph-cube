@@ -22,8 +22,8 @@ Research graph solver based on reinforcement learning for Rubik's cube,
 
 ## TO-DO
 
-- [ ] discover DeepCube code and whitepaper. Write tldr
-- [ ] discover gym for cube:
-  - Can i ершы use
-  - Migration -> gymnasium
-  - How build graph represented environment
+- [ ] [discover DeepCube code and whitepaper. Write tldr](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/1)
+- [ ] [discover gym for cube](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/2):
+  - what can i use
+  - migration -> gymnasium
+  - mow build graph represented environment
