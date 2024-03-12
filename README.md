@@ -1,6 +1,6 @@
 # rl-graph-cube
 
-Rubik's cube graph solver, reinforcement learning based.
+Rubik's cube graph solver. RL based.
 
 ## Important thinks
 
