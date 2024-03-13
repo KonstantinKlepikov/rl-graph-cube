@@ -2,6 +2,15 @@
 
 Rubik's cube graph solver. RL based.
 
+## Development
+
+1. Create VSCode project with `code .`
+2. Install poery dependencies and add environment for python linting. Use `poetry config virtualenvs.in-project true` for creation env folder inside project. Then `poetry install --with dev`.
+3. Inside container use:
+
+    - `pytest -v -s -x` for all tests
+    - use `python -m IPython` to check code
+
 ## Important thinks
 
 ### Deep cube
@@ -26,7 +35,7 @@ Rubik's cube graph solver. RL based.
 ## TO-DO
 
 - min target: graph dqn for cube problem
-- max target: gymnasium graph environment for cube problem
+- max target: gymnasium/jax graph environment for cube problem
 
 - [ ] [discover DeepCube code and whitepaper. Write tldr](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/1)
 - [ ] [discover gym for cube](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/2):

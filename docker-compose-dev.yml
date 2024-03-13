@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+
+  rl-graph-cube-dev:
+    image: nvcr.io/nvidia/pyg:23.11-py3
+    container_name: rl-graph-cube-dev
+    privileged: true
+    command: tail -f /dev/null
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            count: all
+            capabilities: [gpu]
+    volumes:
+      - ./src:/workspace/src
+      - ./tests:/workspace/tests
+      - ./research:/workspace/research

@@ -153,8 +153,5 @@ docker-stack.yml
 logs
 *.ods
 
-# some research data
-research/
-
 # vscode workspace
 *.code-workspace
