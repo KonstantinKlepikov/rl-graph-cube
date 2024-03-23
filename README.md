@@ -15,6 +15,8 @@ Rubik's cube graph solver. RL based.
 
 ### Deep cube
 
+- [DeepCube](https://openreview.net/pdf?id=Hyfn2jCcKm)
+- [DeepCubeA](https://cse.sc.edu/~foresta/assets/files/SolvingTheRubiksCubeWithDeepReinforcementLearningAndSearch_Final.pdf)
 - [DeepCubeA github](https://github.com/forestagostinelli/DeepCubeA)
 - [DeepCubeA UI](https://deepcube.igb.uci.edu/)
 
@@ -37,7 +39,7 @@ Rubik's cube graph solver. RL based.
 - min target: graph dqn for cube problem
 - max target: gymnasium/jax graph environment for cube problem
 
-- [ ] [discover DeepCube code and whitepaper. Write tldr](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/1)
+- [x] [discover DeepCube code and whitepaper. Write tldr](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/1)
 - [ ] [discover gym for cube](https://github.com/KonstantinKlepikov/rl-graph-cube/issues/2):
   - what can i use
   - migration -> gymnasium
