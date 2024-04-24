@@ -16,6 +16,7 @@ torchrl = "^0.3.1"
 pandas = "^2.2.1"
 sympy = "^1.12"
 matplotlib = "^3.8.3"
+rubiks-cube-gym = "^0.5.2"
 
 
 [tool.poetry.group.dev.dependencies]
