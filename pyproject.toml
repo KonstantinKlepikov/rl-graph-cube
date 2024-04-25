@@ -17,6 +17,15 @@ pandas = "^2.2.1"
 sympy = "^1.12"
 matplotlib = "^3.8.3"
 rubiks-cube-gym = "^0.5.2"
+tqdm = "^4.66.2"
+hydra-core = ">=1.1"
+hydra-submitit-launcher = "^1.2.0"
+gym = {extras = ["accept-rom-license"], version = "^0.26.2"}
+pygame = "^2.5.2"
+dm-control = "^1.0.18"
+gymnasium = {extras = ["atari"], version = "^0.29.1"}
+torchvision = "^0.18.0"
+wandb = "^0.16.6"
 
 
 [tool.poetry.group.dev.dependencies]
