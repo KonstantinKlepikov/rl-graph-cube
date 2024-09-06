@@ -1534,17 +1534,17 @@ test = ["ipykernel", "pre-commit", "pytest (<8)", "pytest-cov", "pytest-timeout"
 
 [[package]]
 name = "kaggle"
-version = "1.6.6"
+version = "1.6.17"
 description = "Kaggle API"
 optional = false
 python-versions = "*"
 files = [
-    {file = "kaggle-1.6.6.tar.gz", hash = "sha256:db88715cc0618af253b6afde21881ae9e8e6f64b310acfb273fd13f4a5752207"},
+    {file = "kaggle-1.6.17.tar.gz", hash = "sha256:439a7dea1d5039f320fd6ad5ec21b688dcfa70d405cb42095b81f41edc401b81"},
 ]
 
 [package.dependencies]
 bleach = "*"
-certifi = "*"
+certifi = ">=2023.7.22"
 python-dateutil = "*"
 python-slugify = "*"
 requests = "*"
