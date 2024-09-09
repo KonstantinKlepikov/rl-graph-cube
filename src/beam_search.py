@@ -29,7 +29,6 @@ class BeamSearch:
         self.beam_width = beam_width
         self.is_found: bool = False
         self.step: int | None = None
-        self._log: list[str] = []
 
     def _set_devise(self) -> torch.device:
         if torch.cuda.is_available():
