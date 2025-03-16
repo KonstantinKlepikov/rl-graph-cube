@@ -26,6 +26,8 @@ dm-control = "^1.0.18"
 gymnasium = {extras = ["atari"], version = "^0.29.1"}
 torchvision = "^0.18.0"
 wandb = "^0.16.6"
+networkx = "^3.4.2"
+scipy = "^1.15.2"
 
 
 [tool.poetry.group.dev.dependencies]
